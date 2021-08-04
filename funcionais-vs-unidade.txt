@@ -1,0 +1,6 @@
+Testes de unidade são implementados em maior quantidade que os testes funcionais, são mais rápidos e robustos por focarem na lógica baixo nível do sistema, e são
+executados mais frequentemente no ciclo TDD. Entretanto, não verificam como o sistema se comporta como um todo.
+
+Já os testes funcionais são implementados em menor quantidade, são mais lentos e executados menos frequentemente, porém testam o sistema no nível de um usuário,
+podendo encontrar problemas que um usuário enfrentaria ao usar o sistema. Entretanto, pequenas mudanças na interface podem causar o teste a falhar e necessitar de
+modificações.
