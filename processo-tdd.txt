@@ -1,0 +1,6 @@
+O processo apresentado na figura trabalha em dois níveis: o mais alto, ancorado aos testes funcionais, e o mais baixo, ancorado aos testes de unidade. O mesmo
+inicia com a escrita de testes, assim como o processo apresentado na primeira figura, porém testes funcionais, que descrevem o funcionamento do sistema na visão
+do usuário final. Em seguida, na etapa de execução desses testes, quando o mesmo falha, entramos no segundo ciclo TDD, focado nos testes de unidade, que também
+possuem suas etapas de escrita de testes, execução, escrita de código mínimo, e refatoração. Porém, além de seguir o ciclo se baseando nos testes de unidade, 
+esse processo também retorna periodicamente aos testes funcionais, para verificar se o sistema não só funciona corretamente isoladamente, mas também como um todo,
+segundo os padrões de uso de um usuário final.
